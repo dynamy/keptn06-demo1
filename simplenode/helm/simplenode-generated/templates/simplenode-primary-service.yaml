@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2020-03-04T07:38:37Z"
+  name: simplenode-primary
+  resourceVersion: "21758"
+  selfLink: /api/v1/namespaces/simpleproject-staging/services/simplenode
+  uid: 28fca35c-5deb-11ea-b6de-42010a800005
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: simplenode-primary
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}
