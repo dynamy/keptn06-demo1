@@ -4,9 +4,9 @@ metadata:
   annotations:
     deployment.kubernetes.io/revision: "2"
   creationTimestamp: "2020-03-04T07:42:43Z"
-  generation: 3
+  generation: 5
   name: simplenode-primary
-  resourceVersion: "272029"
+  resourceVersion: "284726"
   selfLink: /apis/apps/v1/namespaces/simpleproject-production/deployments/simplenode
   uid: bba4b4ff-5deb-11ea-b6de-42010a800005
 spec:
